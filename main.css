@@ -1,0 +1,364 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	color: #287a78;
+	font: 400 16px/22px "Helvetica Beue",Helvetica,Arial,Sans-serif;
+	background: #4f4f51;
+}
+
+/*
+==============================
+Grid
+==============================
+*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.grid
+.container {
+	margin: 0 auto;
+	Width: 960px
+}  
+
+.container{
+	padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.col-1-3{
+	width: 33.33%;
+}
+
+.col-1-3,
+.col-2-3,
+.col-3-3 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-2-3 {
+	width: 66.66%;
+}
+
+.col-3-3 {
+	width: 66.66%;
+}
+
+.grid,
+.col-1-3,
+.col-2-3,
+.col-3-3 {
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+/*
+==============================
+Clearfix
+==============================
+*/
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after{
+	clear: both;
+	*zoom: 1;
+}
+
+.row{
+	background: blanchedalmond;
+	min-width: 960px;
+	padding: 66px 0 44px 0;
+}
+
+/*
+==============================
+Typography
+==============================
+*/
+
+h1, h2, h3, h4 {
+	color: #14A76C;
+}
+
+h1 {
+	font-size: 20px;
+	line-height: 20 px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 40px;
+}
+
+h3{
+	font-size: 21px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+h5{
+	color: #3AAFA9;
+	font-size: 14px;
+	font-weight: 400px;
+	text-transform: uppercase;
+}
+
+h1,h3,h4,h5,p{
+	margin-bottom: 22px;
+}
+
+/*
+==============================
+Buttons
+==============================
+*/
+
+.btn-base {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;
+	color: #fff;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+.btn-gen{
+	border: 1px solid  #fff;
+	padding: 10px 30px;
+}
+
+.btn-gen:hover {
+	background: #3AAFA9;
+	color: black;
+}
+
+.btn-sub {
+	border: o;
+	background: #64880;
+	padding: 10px 30px;
+	font-size: 14px;
+}
+
+.btn-sub:hover {
+	background: #287a78;
+}
+
+/*
+==============================
+Primary header
+==============================
+*/
+
+.logo {
+	border-top: 8px solid #14A76C;
+	padding: 40px 0 22px 0;
+	float: left;
+	font-size: 30px;
+	line-height: 60px;
+}	
+
+
+.tagline {
+	margin: 66px 0 22px 0;
+	text-align: right;
+} 
+ 
+
+.primary-nav {
+	font-size: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	text-align: right;
+} 
+
+.nav {
+	text-align: right;
+}
+
+/*
+==============================
+Primary footer
+==============================
+*/
+
+.primary-footer  small{
+	float: center;
+	font-weight:400; 
+	
+}
+
+.primary-footer{
+	padding-bottom: 44px;
+	padding-top: 44px;
+	COLOR: #648880;
+	FONT-SIZE:25PX;
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
+*{
+	margin: o;
+	padding: 0;
+	list-style: none;
+}
+
+ul {
+	display: flex;
+	height: 100vh
+	text-align;: center
+	justify-content: center;	
+}
+
+/*
+==============================
+Links
+==============================
+*/
+
+a:hover {
+	color: #ffe400;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*
+==============================
+Register
+==============================
+*/
+
+
+.intro{
+	padding: 22px 80px 66p 80px;
+	line-height: 30px; 
+	text-align: center;
+	color: #fff;
+
+}
+
+.intro h2 {
+	font: size 40;px;
+}
+
+.intro p {
+	font: size 25px;
+} 
+
+.teaser a:hover h3 {
+	color: #14a76c;
+}
+
+/*
+==============================
+Form
+==============================
+*/
+
+form {
+	margin-bottom: 25px;
+}
+
+input,
+select,
+textarea {
+	font: 300 16px/22px "Helvetica neue",Helvetica,Arial,sans-serif;
+}
+
+.register-form label {
+	color: #648880;
+	font-weight: 400;
+}
+
+.register-form input,
+.register-form select,
+.register-form textarea {
+	border: 1px solid #c6c9cc;
+	border-radius: 5px;
+	color: #888;
+	display: block;
+	margin: 5px 0 25px 0;
+	padding: 5px;
+}
+
+.register-form input
+.register-form textarea {
+	width: 100%;
+}
+
+.register-form select {
+	height: 35px;
+	width: 60px;
+}
+
+.register-form textarea {
+	height: 80px;
+}
+
+.merit-list {
+	list-style: square;
+	margin: 0 0 20px 30px;
+} 
+
+
